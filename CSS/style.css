@@ -63,46 +63,38 @@ body {
   text-align: justify;
   color: grey;
 }
-.first_description{
+.second_page{
   font-family: Georgia, 'Times New Roman', Times, serif;
   display: flex;
-  align-items: stretch;
+  padding: 30px;
 
 }
-.design{
-  display: flex; 
+ .img{
   
-}
-.img{
   width: 500px;
   max-width: 100vw; 
-}
-.web_design{
-  height: inherit;
-}
+} 
 
- .header_1 {
-   display: flex;
-   justify-content:right;
-   align-items:center;
-   font-size: 20px;
-   margin: 30px; 
-   
+.right_container{
+  display: flex;
+  flex-direction: column;
 }
-.header_1 h3{
-   margin:40px;
- }
-.web_design p{
+.icon{
+   display: flex;
+   margin: 30px;
+   font-size: 20px;  
+}
+.text{
+  display: flex;
   text-align: justify;
-  margin: 30px;
   color:darkgrey;
 }
 .button{
   display: flex;
-  flex-direction: column;
+  
 }
 .b1{
-  width: fit-content; 
+  
   border:  1px solid #654321;
   text-decoration: none;
   color: #654321;
